@@ -1,34 +1,98 @@
 {
-  "hero_headline": "",
-  "daily_overview": "",
-  "tech_briefs": [],
-  "finance_briefs": [],
+  "hero_headline": "OpenAI新模型发布遇监管，欧洲高温致命",
+  "daily_overview": "今日全球科技、财经和时政动态密集交织。OpenAI发布GPT-5.6系列模型（含旗舰Sol、中阶Terra和低成本Luna），但受美国监管压力仅限合作伙伴测试，多家媒体报导；美国监管机构同时针对OpenAI的市场影响力展开调查。DeepMind的Gemini 3.5 Flash新增电脑控制功能，阿里巴巴千问输入法macOS版推出，支持AI语音输入。欧洲央行执行董事警告通胀风险上升，德国车企大规模裁员应对中国竞争，特朗普威胁对欧洲高 tech税征收100%关税，美国保险业因网络攻击暂停风险评级。地缘政治方面，美国空袭伊朗军事设施报复货船袭击；以色列与黎巴嫩达成停火协议，条件包括真主党裁军，但真主党声称协议无效。欧洲多国遭遇极端高温，德国道路变形，Slovakia和丹麦破历史记录，气候危机引发广泛关注。此次事件综合反映了科技监管、地缘政治紧张、气候变化及全球经济转型等核心议题的交织影响。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI发布多款GPT-5.6模型，旗舰Sol受限发布（多家报道）",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI News",
+      "summary": "OpenAI公布GPT-5.6模型，含Sol、Terra和Luna三个版本，编程、科学和网络安全能力增强。因美政府监管要求，模型仅限可信伙伴发布。多家科技媒体对此报导。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "美国监管机构就OpenAI市场影响力展开调查",
+      "url": "https://tldr.tech/ai/2026-06-26",
+      "source": "TLDR AI",
+      "summary": "美国监管机构针对OpenAI的市场支配地位展开调查，关注其在AI领域的数据规模和竞争行为。调查涵盖内部代币使用及合规性。监管部门强调合规对企业长期发展至关重要。",
+      "importance": 8
+    },
+    {
+      "title": "Gemini 3.5 Flash推出电脑控制功能",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind公告Gemini 3.5 Flash新增电脑控制功能，可直接操作电脑应用，实现网页浏览、文件读写等任务。该功能的推出标志着AI助手从纯文本对话向实际操作能力的跃升。用户可体验更深度的AI协作。",
+      "importance": 7
+    },
+    {
+      "title": "阿里千问输入法macOS版发布，新增AI语音输入",
+      "url": "https://linux.do/t/topic/2485375",
+      "source": "LinuxDo",
+      "summary": "阿里千问输入法macOS版上线，支持最高300字/分的AI语音输入，可自动润色、口语转雅俗文，并兼容9种方言，纯净无广告。公司表示iOS、Android和Windows版也将于近期推出。此次输入法独立App的发布填补了市场空白。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "特朗普威胁对欧洲tech税征收100%关税",
+      "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "特朗普威胁对欧洲国家征收100%关税，矛头指向这些国家拟实施的科技税。此举可能引发贸易战，加剧全球供应链紧张。对欧洲科技企业和中欧贸易关系造成冲击。市场密切关注后续政策细节。",
+      "importance": 8
+    },
+    {
+      "title": "欧洲央行执行董事警告通胀压力可能超预期",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal",
+      "source": "Bloomberg Markets",
+      "summary": "欧洲央行执行董事伊莎贝尔·施纳贝尔警告，通胀压力可能超预期，尽管美国-伊朗和平协议重开霍尔木兹海峡。尽管地缘政治缓解，物价上涨风险仍不容忽视。市场预期欧洲央行可能继续维持紧缩政策。",
+      "importance": 7
+    },
+    {
+      "title": "德国车企大规模裁员应对中国竞争",
+      "url": "https://www.ft.com/content/b68964c9-f3d0-48e8-8873-8f463834936c",
+      "source": "Financial Times",
+      "summary": "德国汽车制造商因中国电动车竞争加剧，宣布大规模裁员。这是欧洲最大汽车工业经济体面临的重大挑战。中国品牌在中国和欧洲市场的份额快速提升，导致传统车企利润下滑。此举或引发社会关注。",
+      "importance": 8
+    },
+    {
+      "title": "美国保险监管机构暂停风险评级后网络攻击影响",
+      "url": "https://www.ft.com/content/1b397558-117e-463b-914d-9a62e4484605",
+      "source": "Financial Times",
+      "summary": "美国保险监管机构在发生网络攻击后暂停了投资风险评级，导致行业评估体系暂时中断。此举影响保险公司资本计算和政策合规。专家指出，网络安全风险已成为金融体系新的不稳定因素。",
+      "importance": 6
+    }
+  ],
   "politics_briefs": [],
   "editor_note": "",
   "keywords": [],
   "trading": {
-    "market_overview": "「总体而言，美股市场多数头条股处于中性/偏空状态，纳指（QQQ）表现相对较强，多头排列且 MACD 正值，但价格仍低于 20 日均线。加密货币市场情绪极度恐惧（恐慌贪婪指数 15）、总市值 2.17 万亿美元（+1.32%）主导币种 BTC 占 55.8%（RSI 34.3，MACD 负值），以太坊 ETH 占 8.8%。中国股市整体偏弱，多股出现超卖且空头排列。商品方面，黄金（GC=F）因 MACD 死叉回落至 4096 美元附近，原油（CL=F）RSI 仅 27.1 显示超卖。外汇市场，美元指数（DX-Y.NYB）技术面看多，而 USDCNY 接近 52 周低点.」",
+    "market_overview": "美国股市方面，标普500ETF（SPY）收盘价728.99，低于20日均线743.6，RSI43.2处于中性偏弱，MACD红柱收窄；纳斯达克100ETF（QQQ）价格706.52，虽然股价低于20日均线724.76，但RSI46.5及MACD正值3.4673显示一定买盘，趋势偏多头。总体美股呈现分化，部分科技股承压，蓝筹仍有支撑。加密货币市场处于极度恐慌，恐慌贪婪指数仅15，比特币（BTC-USD）报价60551.92，跌破20日均线63077.4，RSI34.4显示超卖倾向，MACD红柱持续收窄；以太坊（ETH-USD）类似，RSI34.3，价格低于20日均线1681.7；只有Solana（SOL-USD）小幅上扬1.26%，但RSI51.2仍在中性区间，整体 crypto 方向偏弱。中国资产方面，阿里巴巴（BABA）RSI16.5深度超卖，拼多多（PDD）RSI34.2，京东（JD）RSI26.8，腾讯（0700.HK）RSI35.8，均显示超卖或弱势，价格普遍低于20日/50日均线，技术面偏下行。商品与外汇，黄金期货（GC=F）盘中上涨1.63%，但RSI36.2仍处中性，MACD死叉提示空头压力；WTI原油（CL=F）跌幅3.74%，RSI27.1深度超卖，技术面承压；美元/人民币（USDCNY=X）报6.79，接近52周低点，RSI56.5中性；美元指数（DX‑Y.NYB）RSI71.2超买，MACD金叉显示美元强势；恐慌指数（^VIX）虽然当日回落2.54%，但5日上涨12.26%，MACD金叉提示波动率可能再次抬头。整体来看，美股分化，加密恐慌，中国资产弱势，商品原油承压而美元指数偏强。",
     "watchlist": [
+      {
+        "symbol": "BABA",
+        "display_name": "阿里巴巴 (BABA)",
+        "stance": "偏下行",
+        "rationale": "阿里巴巴当前RSI为16.5，深度超卖（「RSI 超卖」），股价94.81显著低于20日均线113.53、50日均线126.3和200日均线148.22，MACD为-8.5279低于信号线-6.8041，呈空头排列，技术面偏弱。"
+      },
+      {
+        "symbol": "PDD",
+        "display_name": "拼多多 (PDD)",
+        "stance": "中性",
+        "rationale": "拼多多今日上涨4.43%，收于76.55，但RSI仅34.2，仍处于低位区间，股价低于20日均线81.51和50日均线91.25，MACD为-4.5148略低于信号线-4.2707，呈空头排列，短线反弹与中期下行压力共存，技术面呈中性。"
+      },
+      {
+        "symbol": "CL=F",
+        "display_name": "WTI 原油期货",
+        "stance": "偏下行",
+        "rationale": "WTI原油期货RSI为27.1，处于超卖区间（「RSI 超卖」），当前价69.23低于20日均线83.24、50日均线91.99，虽然200日均线73.9略高，MACD为-6.534低于信号线-5.2009，技术指标显示空头动能，整体偏下行。"
+      },
       {
         "symbol": "DX-Y.NYB",
         "display_name": "美元指数 DXY",
         "stance": "偏上行",
-        "rationale": "「美元指数（DX-Y.NYB）当前价 101.37 元显著高于 20 日均线 100.14 元及 50 日均线 99.22 元，RSI14 值 71.2 超过 70 表明超买，MACD 值 0.6138 大于信号线 0.4672 形成金叉，且标接近 52 周高点，多头排列 signals 整体共振，技术面偏上行.」"
-      },
-      {
-        "symbol": "0700.HK",
-        "display_name": "腾讯控股 (0700.HK)",
-        "stance": "偏下行",
-        "rationale": "「0700.HK 腾讯控股价格 411.8 元持续低于 20 日均线 445.59 元及 50 日均线 461.46 元，RSI14 值为 35.8 小于 40 水平，MACD 值 -10.926 小于信号线 -7.7491 形成死叉，股价逼近 52 周低点，且空头排列 signals 所示，综合判断技术面偏下行.」"
-      },
-      {
-        "symbol": "SPY",
-        "display_name": "S&P 500 ETF",
-        "stance": "中性",
-        "rationale": "「SPY 标准普尔 500 指数当前价 728.99 元低于 20 日均线 743.6 元及 50 日均线 734.35 元，但未跌破 200 日均线 690.54 元，RSI14 值为 43.2 介于 30-70 之间属正常区域，MACD 值 -0.138 小于信号线 2.6571 形成死叉，趋势字段显示中性，因此总体技术面趋于中性.」"
+        "rationale": "美元指数RSI达71.2，进入超买区间（「RSI 超买」），股价101.37接近52周高点，位于20日均线100.14之上，50日均线99.22和200日均线98.77之下，MACD为0.6138高于信号线0.4672，呈多头排列，技术面偏强。"
       }
     ],
-    "risk_caveat": "「重要提示：过去走势不代表未来表现，以上内容仅供技术指标解读参考，不构成任何投资建议.」",
+    "risk_caveat": "过去走势不代表未来表现，仅供技术指标解读参考。投资者应结合基本面、风险承受能力及市场环境独立判断。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -232,18 +296,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 60524.02,
-        "pct1Day": 0.8457522634101572,
-        "pct5Day": -5.360395007518754,
-        "pct52WeekHigh": -52.040455135328145,
-        "pct52WeekLow": 4.215344328596084,
-        "sma20": 63076.0064453125,
-        "sma50": 69837.835,
-        "sma200": 75840.40369140625,
-        "rsi14": 34.31657358230237,
-        "macd": -2276.4958756860287,
-        "macdSignal": -2286.6671609593363,
-        "macdHistogram": 10.171285273307603,
+        "currentPrice": 60551.92,
+        "pct1Day": 0.8922395338880482,
+        "pct5Day": -5.316768609614412,
+        "pct52WeekHigh": -52.018347031773146,
+        "pct52WeekLow": 4.263384893429153,
+        "sma20": 63077.4015625,
+        "sma50": 69838.393046875,
+        "sma200": 75840.543203125,
+        "rsi14": 34.44640759189248,
+        "macd": -2274.2700476945683,
+        "macdSignal": -2286.2219953610443,
+        "macdHistogram": 11.951947666475917,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -259,18 +323,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1591.63,
-        "pct1Day": 0.9522870684137338,
-        "pct5Day": -7.812337996250871,
-        "pct52WeekHigh": -67.8700890823143,
-        "pct52WeekLow": 5.650446593066338,
-        "sma20": 1681.640362548828,
-        "sma50": 1906.2661889648436,
-        "sma200": 2318.9736553955076,
-        "rsi14": 34.12140627422332,
-        "macd": -77.83198718803965,
-        "macdSignal": -77.94737598174073,
-        "macdHistogram": 0.11538879370108646,
+        "currentPrice": 1592.83,
+        "pct1Day": 1.028399446593385,
+        "pct5Day": -7.742833655163758,
+        "pct52WeekHigh": -67.84586492651098,
+        "pct52WeekLow": 5.730101120759118,
+        "sma20": 1681.7003601074218,
+        "sma50": 1906.2901879882813,
+        "sma200": 2318.9796551513673,
+        "rsi14": 34.27966531363933,
+        "macd": -77.7362645874341,
+        "macdSignal": -77.92823146161962,
+        "macdHistogram": 0.1919668741855105,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -286,18 +350,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 72.66,
-        "pct1Day": 1.147929390001086,
-        "pct5Day": 1.045548891704284,
-        "pct52WeekHigh": -71.30443951836007,
-        "pct52WeekLow": 20.268702726752675,
-        "sma20": 69.71970272064209,
-        "sma50": 77.69882263183594,
-        "sma200": 95.47596244812011,
-        "rsi14": 51.041416156368534,
-        "macd": -1.3422713747232962,
-        "macdSignal": -2.0246871780574898,
-        "macdHistogram": 0.6824158033341936,
+        "currentPrice": 72.74,
+        "pct1Day": 1.2592951256355467,
+        "pct5Day": 1.1568019045220126,
+        "pct52WeekHigh": -71.27284517706455,
+        "pct52WeekLow": 20.401120786457327,
+        "sma20": 69.7237024307251,
+        "sma50": 77.70042251586914,
+        "sma200": 95.47636241912842,
+        "rsi14": 51.19781801285252,
+        "macd": -1.3358900708871602,
+        "macdSignal": -2.0234109172902626,
+        "macdHistogram": 0.6875208464031024,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -616,13 +680,13 @@
       "timestamp": "2026-06-27T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2173622865072.9966,
-      "total24hVolumeUsd": 57707939309.24044,
-      "marketCapChangePct24h": 1.317492098271321,
-      "btcDominance": 55.82590669648031,
-      "ethDominance": 8.836899038659528,
-      "activeCryptocurrencies": 17433
+      "totalMarketCapUsd": 2172575250967.3884,
+      "total24hVolumeUsd": 57030380658.41331,
+      "marketCapChangePct24h": 1.2686604285403293,
+      "btcDominance": 55.82539919660384,
+      "ethDominance": 8.838229185638696,
+      "activeCryptocurrencies": 17434
     },
-    "generated_at": "2026-06-27T14:33:44.725Z"
+    "generated_at": "2026-06-27T14:49:53.182Z"
   }
 }
