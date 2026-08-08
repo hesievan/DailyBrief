@@ -1,40 +1,137 @@
 {
-  "hero_headline": "",
-  "daily_overview": "",
-  "tech_briefs": [],
-  "finance_briefs": [],
-  "politics_briefs": [],
-  "editor_note": "",
-  "keywords": [],
+  "hero_headline": "OpenAI Astra 升级网安评级，就业能源数据波动",
+  "daily_overview": "今日科技聚焦 OpenAI 将 Astra 模型列为「关键」网安级别并向免费用户开放 GPT‑5.6 Luna，DeepMind WeatherNext 在飓风预测取得突破，AMD 收购 Taalas 加速推理芯片布局。财经方面，美国 7 月非农就业意外减少 2.3 万，Meta 因儿童安全被重罚 5.67 亿美元，乌克兰无人机袭击俄炼厂引发能源担忧，非洲加速去美元化。时政层面，俄导弹袭击基辅郊区致儿童死亡，印度警方暴力驱散青年抗议，特朗普签署限制出生公民权行政令且伊朗威胁封锁霍尔木兹海峡。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI Astra 升级网安评级",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "OpenAI News",
+      "summary": "OpenAI 公布 Astra 模型初步网络安全评估，将其列为「关键」级别，暂停部分活动以强化防护。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "DeepMind WeatherNext 飓风预测突破",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": "DeepMind Blog",
+      "summary": "WeatherNext 模型在飓风路径与强度预测上显著提升准确度，为灾害预警提供新工具。",
+      "importance": 8
+    },
+    {
+      "title": "AMD 收购 Taalas 加速推理芯片",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "source": "Latent Space",
+      "summary": "AMD 宣布收购推理加速初创 Taalas，旨在强化 AI 推理硬件竞争力，推动「推理拐点」到来。",
+      "importance": 8
+    },
+    {
+      "title": "PrimeIntellect 发布自改进编程代理",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "source": "GitHub Trending",
+      "summary": "Prime-Agent 采用自改进强化学习，能在长时自主任务中持续优化代码生成流程。",
+      "importance": 7
+    },
+    {
+      "title": "OpenAI 面向免费用户开放 GPT‑5.6 Luna",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "source": "OpenAI News",
+      "summary": "ChatGPT 推出改进版 GPT‑5.6 Sol 并向免费用户无限制提供 Luna 模型，提升准确性与一致性。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "美国 7 月非农就业意外下降 2.3 万",
+      "url": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "分析师预期增加，实际岗位减少 2.3 万，显示夏季招聘放缓，市场对经济前景担忧加剧。",
+      "importance": 9
+    },
+    {
+      "title": "Meta 因儿童安全被罚 5.67 亿美元",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "爱尔兰数据保护委员会裁决 Meta 违规，加罚 5.67 亿美元，累计罚款达 9.42 亿美元。",
+      "importance": 9
+    },
+    {
+      "title": "乌克兰无人机袭击俄炼厂引发火灾",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/ukraine-drone-strike-sparks-fire-at-russia-s-ilsky-refinery",
+      "source": "Bloomberg Markets",
+      "summary": "无人机残骸击中克拉斯诺达尔炼厂，致 5 人受伤，能源设施成冲突新焦点。",
+      "importance": 8
+    },
+    {
+      "title": "非洲多国加速去美元化 人民币结算上升",
+      "url": "https://www.economist.com/finance-and-economics/2026/08/06/african-countries-are-souring-on-the-dollar",
+      "source": "The Economist Finance",
+      "summary": "非洲央行与企业增加人民币、本币跨境结算，削弱美元在区域贸易中的主导地位。",
+      "importance": 8
+    },
+    {
+      "title": "特朗普政府向 RWE 支付 12 亿美元终止风电",
+      "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "为取消风电合同，美方向 RWE 支付 12 亿美元，标志着特朗普对可再生能源政策的延续。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "俄导弹袭击基辅郊区致儿童死亡",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "俄军夜间发射导弹击中基辅郊区，造成儿童在内 3 死，泽连斯基警告拦截弹药短缺。",
+      "importance": 9
+    },
+    {
+      "title": "印度警方暴力驱散青年抗议",
+      "url": "https://www.nytimes.com/2026/08/08/world/asia/pellet-guns-sticks-and-tear-gas-how-indias-police-halted-a-youth-march.html",
+      "source": "NYT World",
+      "summary": "7 月 20 日新德里青年游行遭暴力镇压，多人受伤，舆论批评警方使用过度武力。",
+      "importance": 8
+    },
+    {
+      "title": "特朗普限制出生公民权 伊朗威胁封锁霍尔木兹",
+      "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell",
+      "source": "NPR World",
+      "summary": "特朗普发布两项行政令针对出生公民权，伊朗扬言禁止美军舰通过霍尔木兹海峡，地缘张力升级。",
+      "importance": 9
+    }
+  ],
+  "editor_note": "多维风险并存，需警惕技术滥用与地缘冲突外溢。",
+  "keywords": [
+    "OpenAI",
+    "Astra",
+    "DeepMind",
+    "AMD",
+    "非农就业",
+    "Meta罚款",
+    "俄乌冲突",
+    "出生公民权"
+  ],
   "trading": {
-    "market_overview": "近期美股整体呈现多头排列，SPY 收盘 773.26，较 20 日均线 750.17 上涨 3.1%，5 日涨幅 3.51%，RSI 66 处于中性偏强，MACD 金叉且红柱扩大，显示短期动量向好；纳斯达克 100 ETF QQQ 价格 723.03，5 日涨幅 5.09%，RSI 57.1，MACD 金叉，多头排列明显。科技巨头中，MSFT RSI 78.1 进入超买区间，MACD 正柱 27.56，表明上涨动能充实但伴随回调风险；AAPL RSI 47.6，接近均线，趋势仍为 bullish。加密货币方面，恐慌贪婪指数仅为 30，处于恐慌区间，BTC 价格 64955.15，5 日涨幅 2.35%，RSI 54.9，MACD 金叉，红柱 126.53，显示在低迷情绪中仍有买盘支撑；ETH 价格 1915，5 日涨幅 3.05%，RSI 56.5，MACD 近乎持平。商品与外汇，黄金期货 GC=F 单日涨幅 3.72%，收于 4399.7，MACD 正柱 17.27，RSI 64.9，表明避险需求升温；美元指数 DXY 99.6，靠近 52 周高点，RSI 36.2，处于偏弱区间。宏观面，10 年美债收益率 ^TNX 4.66，MACD 出现死叉但仍站在多头排列，VIX 指数 14.9，MACD 死叉且跌幅 1.65%，市场恐慌情绪略有缓解。总体来看，权益市场多头格局尚存，但在超买与恐慌交织的背景下，关注轮动与回调风险。",
+    "market_overview": "美股方面，SPY 价格 773.26，站在 20 日均线 750.17 和 50 日均线 747.19 之上，RSI 66 处于中性偏强，MACD 金叉且红柱扩大，显示多头排列；QQQ 类似，RSI 57.1，MACD 金叉，短线动能转强。个股中，MSFT RSI 78.1 进入超买区，MACD 正柱显著，但趋势标记为 neutral；NVDA RSI 64.4，MACD 金叉，价格均线多头排列，趋势 bullish。相反，TSLA RSI 41.4，MACD 虽出现金叉但 histogram 极小，空头排列及 bearish 趋势表明下行压力。加密市场，恐慌贪婪指数为 30（恐慌），总市值 2.30T USD，BTC 主导率 56.8%，ETH 10.1%；BTC 价格 64925.36，临近 20 日均线 64405.11，MACD 金叉，RSI 54.8 中性。ETH 类似。商品外汇，黄金期货涨幅 3.72%，站在 20 日均线之上，RSI 64.9，MACD 正柱；WTI 原油跌幅 -7.67%，低于 20 日均线，MACD 死叉；美元/人民币 6.75，接近 52 周低，RSI 32.3 触及超卖区，空头排列。宏观面，VIX 14.9 下跌，MACD 死叉；10Y 美债收益率 4.66，MACD 死叉但价格仍在均线之上，趋势 bullish。",
     "watchlist": [
       {
-        "symbol": "MSFT",
-        "display_name": "微软 (MSFT)",
+        "symbol": "NVDA",
+        "display_name": "Nvidia (NVDA)",
         "stance": "偏上行",
-        "rationale": "微软当日收盘价 499.99 元，相对强弱指数 RSI14 达到 78.1，已深入超买区间，说明近期买盘异常活跃；MACD 数值为 27.5616，信号线为 16.2622，红色柱形 11.2994，呈明显金叉且动量向上；尽管趋势字段标记为 neutral，但均线呈多头排列（20 日均线 423.84 < 50 日均线 407.01 < 200 日均线 433.08），整体技术面显示偏上行。"
+        "rationale": "Nvidia 当前价格 223.96，高于 20 日均线 206.82 与 50 日均线 206.07，均线呈多头排列；RSI 64.4 处于中性偏强区域，MACD 为 3.0518，信号线 0.5513，红柱为 2.5005，出现 MACD 金叉；趋势标记为 bullish，技术面整体呈上行 bias。"
       },
       {
-        "symbol": "JD",
-        "display_name": "京东 (JD)",
-        "stance": "偏上行",
-        "rationale": "京东当日收盘价 32.97 元，相对强弱指数 RSI14 为 74.3，同样处于超买区间，表明买盘持续活跃；MACD 数值为 1.2420，信号线为 1.0921，红色柱形 0.1499，微弱金叉显示短期动量仍具向上 bias；股价较 5 日前微跌 0.12%，但均线呈多头排列（20 日均线 31.12 < 50 日均线 29.03 < 200 日均线 29.43），整体技术面偏上行。"
-      },
-      {
-        "symbol": "^VIX",
-        "display_name": "VIX 恐慌指数",
+        "symbol": "TSLA",
+        "display_name": "Tesla (TSLA)",
         "stance": "偏下行",
-        "rationale": "VIX 恐慌指数当日收盘 14.90 点，相对弱强指数 RSI14 为 41.9，处于中性偏弱区间；MACD 数值为 -0.4570，信号线为 -0.1296，红色柱形 -0.3274，出现明显死叉且动量向下；指数较 5 日前下跌 6.82%，呈空头排列（20 日均线 17.16 > 50 日均线 17.27 > 200 日均线 18.58），技术面显示偏下行。"
+        "rationale": "Tesla 当前价格 328.58，低于 20 日均线 343.33、50 日均线 380.44 及 200 日均线 408.8，均线呈空头排列；RSI 41.4 处于中性偏弱，MACD 为 -19.7578，信号线 -20.7825，红柱 1.0247 虽为正但幅度甚小，趋势标记为 bearish，技术面整体偏下行。"
       },
       {
         "symbol": "BTC-USD",
-        "display_name": "比特币 (BTC-USD)",
-        "stance": "偏上行",
-        "rationale": "比特币当日收盘价 64955.15 美元，相对强弱指数 RSI14 为 54.9，位于中性偏强区间；MACD 数值为 126.5321，信号线为 50.6939，红色柱形 75.8382，呈明显金叉且动量向上；价格较 5 日前上涨 2.35%，均线呈中性排列（20 日均线 64406.6 < 50 日均线 63306.32 < 200 日均线 70252.86），整体技术面偏上行。"
+        "display_name": "Bitcoin (BTC-USD)",
+        "stance": "中性",
+        "rationale": "Bitcoin 当前价格 64925.36，高于 20 日均线 64405.11 与 50 日均线 63305.72，但低于 200 日均线 70252.71，均线呈多头排列但受长期均线压制；RSI 54.8 处于中性，MACD 为 124.1558，信号线 50.2186，红柱 73.9372 出现 MACD 金叉；趋势标记为 neutral，技术面表现为中性偏多。"
       }
     ],
-    "risk_caveat": "请注意，过去走势不代表未来表现，本报告仅供技术指标解读参考，不构成任何投资建议或交易指示，投资者应自行判断风险并谨慎决策。",
+    "risk_caveat": "过去走势不代表未来表现，仅供技术指标解读参考。市场存在不确定性，决策需谨慎。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -277,18 +374,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64955.15,
-        "pct1Day": 0.11553386653970411,
-        "pct5Day": 2.35460196639294,
-        "pct52WeekHigh": -48.52920492365691,
-        "pct52WeekLow": 12.480801421824694,
-        "sma20": 64406.5990234375,
-        "sma50": 63306.319140625,
-        "sma200": 70252.86255859376,
-        "rsi14": 54.908233474817216,
-        "macd": 126.53209044237155,
-        "macdSignal": 50.69388345569915,
-        "macdHistogram": 75.8382069866724,
+        "currentPrice": 64925.36,
+        "pct1Day": 0.06961846562254351,
+        "pct5Day": 2.3076596747874407,
+        "pct52WeekHigh": -48.5528106729366,
+        "pct52WeekLow": 12.429215010672442,
+        "sma20": 64405.1095703125,
+        "sma50": 63305.723359375,
+        "sma200": 70252.71361328124,
+        "rsi14": 54.75614550456792,
+        "macd": 124.15575497228565,
+        "macdSignal": 50.21861636168197,
+        "macdHistogram": 73.93713861060368,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -305,18 +402,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1915,
-        "pct1Day": 0.08992837311948734,
-        "pct5Day": 3.053589813777813,
-        "pct52WeekHigh": -61.34228469721723,
-        "pct52WeekLow": 27.11535044308164,
-        "sma20": 1895.7894165039063,
-        "sma50": 1798.40474609375,
-        "sma200": 2055.4063134765624,
-        "rsi14": 56.54246378764381,
-        "macd": 21.076363494893258,
-        "macdSignal": 23.785757611565103,
-        "macdHistogram": -2.709394116671845,
+        "currentPrice": 1914.4,
+        "pct1Day": 0.05856860443861915,
+        "pct5Day": 3.021301482765668,
+        "pct52WeekHigh": -61.35439677511888,
+        "pct52WeekLow": 27.075523179235244,
+        "sma20": 1895.7594177246094,
+        "sma50": 1798.3927465820314,
+        "sma200": 2055.403313598633,
+        "rsi14": 56.47085152209208,
+        "macd": 21.0285021945906,
+        "macdSignal": 23.776185351504573,
+        "macdHistogram": -2.747683156913972,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -327,18 +424,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 74.67,
-        "pct1Day": 1.3950414867044691,
-        "pct5Day": 1.6281996127864602,
-        "pct52WeekHigh": -70.51063169331057,
-        "pct52WeekLow": 23.595706476832135,
-        "sma20": 74.53151054382325,
-        "sma50": 75.21775314331055,
-        "sma200": 83.78341201782227,
-        "rsi14": 50.38506199965085,
-        "macd": -0.6257580968165684,
-        "macdSignal": -0.6594285302104981,
-        "macdHistogram": 0.03367043339392972,
+        "currentPrice": 74.69,
+        "pct1Day": 1.4221996603985054,
+        "pct5Day": 1.6554202367620237,
+        "pct52WeekHigh": -70.5027331079867,
+        "pct52WeekLow": 23.62881099175829,
+        "sma20": 74.53251075744629,
+        "sma50": 75.21815322875976,
+        "sma200": 83.78351203918457,
+        "rsi14": 50.451833895471935,
+        "macd": -0.6241623143980348,
+        "macdSignal": -0.6591093737267913,
+        "macdHistogram": 0.034947059328756525,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -630,13 +727,13 @@
       "timestamp": "2026-08-08T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2296579360993.381,
-      "total24hVolumeUsd": 51155451399.66578,
-      "marketCapChangePct24h": 0.8559224157429854,
-      "btcDominance": 56.771520531251966,
-      "ethDominance": 10.063405855762651,
+      "totalMarketCapUsd": 2295323468571.5205,
+      "total24hVolumeUsd": 50443364933.822754,
+      "marketCapChangePct24h": 0.46923071060280264,
+      "btcDominance": 56.762796964726135,
+      "ethDominance": 10.061495612128626,
       "activeCryptocurrencies": 18253
     },
-    "generated_at": "2026-08-08T07:21:21.332Z"
+    "generated_at": "2026-08-08T08:19:28.552Z"
   }
 }
