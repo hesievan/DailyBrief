@@ -1,143 +1,130 @@
 {
-  "hero_headline": "台风多莉登陆 中国发布红色预警",
-  "daily_overview": "今日科技领域 OpenAI 将 Astra 列为关键网络安全级别、DeepMind 推出气旋预测与多机器人协作新模型、AMD 收购推理芯片初创公司；财经方面中国发布台风红色预警致航班大规模取消、工厂通胀回落、韩股波动回落、欧洲股市反弹、美国就业意外下滑；时政上加拿大野火迫使两万余人撤离、哥斯达黎加前副总统成联合国秘书长热门人选、德国选择党支持率超越联盟党。",
+  "hero_headline": "OpenAI Astra模型升级网络安全，中国应对台风豪拉巴克",
+  "daily_overview": "OpenAI将Astra模型提升至「关键」网络安全等级，暂停部分活动以强化防护；中国气象部门发布台风豪拉巴克红色预警， airports 取消超千航班；欧洲股市迎来投资者热潮，22%核心利润增长拉动复苏；加拿大巴尔德山火灾致1.8万人转移，野火燃烧2.5万英亩。",
   "tech_briefs": [
     {
-      "title": "OpenAI Astra 升级为关键网络安全级别",
+      "title": "OpenAI加强Astra模型网络安全防护",
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
       "source": "OpenAI News",
-      "summary": "OpenAI 将即将推出的 Astra 模型列为「关键」网络安全级别，暂停部分业务以加强防护。（多家报道）",
+      "summary": "OpenAI将Astra模型提升至critical网络安全等级，暂停部分活动以加强安全控制和防护措施。（多家报道）",
       "importance": 9
     },
     {
-      "title": "DeepMind WeatherNext 实现气旋预测突破",
+      "title": "GPT-5.6在无线通信25年问题中取得突破",
+      "url": "https://x.com/DimitrisPapail/status/2086158118354887060",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "GPT-5.6和Claude Fable似乎解决了2000至2010年代高度研究的无线通信开放理论问题。",
+      "importance": 8
+    },
+    {
+      "title": "DeepMind天气预报模型创热带气旋预测突破",
       "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "source": "DeepMind Blog",
-      "summary": "DeepMind 推出 WeatherNext 模型，显著提升热带气旋路径与强度预测精度，助力灾害预警。",
-      "importance": 9
-    },
-    {
-      "title": "Gemini Robotics ER 2 多机器人协作",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "source": "DeepMind Blog",
-      "summary": "Gemini Robotics ER 2 结合视频理解与任务编排，实现多机器人实时协作完成复杂现实任务。",
-      "importance": 9
-    },
-    {
-      "title": "OpenAI 改进 GPT‑5.6 Sol 并开放 Luna",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "source": "OpenAI News",
-      "summary": "ChatGPT 更新 GPT‑5.6 Sol 提升准确性，同时向免费用户无限制提供 GPT‑5.6 Luna 模型。",
+      "summary": "WeatherNext AI模型在热带气旋 forecasting 上取得突破性进展，提升预测准确性。",
       "importance": 8
     },
     {
-      "title": "AMD 收购 Taalas 加速推理芯片布局",
-      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "source": "Latent Space",
-      "summary": "AMD 宣布收购推理芯片初创公司 Taalas，旨在强化 AI 推理硬件竞争力。",
-      "importance": 8
+      "title": "AI辅导员何时该帮助何时保持距离",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face Blog",
+      "summary": "TutorMoments研究探讨AI教学代理在何时该提供帮助或保持距离，优化学习体验。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "中国发布台风红色预警 取消千余航班",
+      "title": "中国气象红色警报台风豪拉巴克取消航班",
       "url": "https://www.bloomberg.com/news/articles/2026-08-09/china-issues-red-alert-airports-cancel-flights-as-typhoon-nears",
       "source": "Bloomberg Markets",
-      "summary": "中国气象部门发布最高级别台风红色预警，超 1000 趟航班取消，铁路部分停运。（多家报道）",
+      "summary": "中国发布台风红色警报，超1000架航班被取消，部分铁路服务中断。",
       "importance": 9
     },
     {
-      "title": "中国工厂通胀回落 伊朗战争油价冲击缓解",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/china-s-inflation-cools-as-oil-shock-of-iran-war-starts-to-ease",
+      "title": "欧洲股市迎来投资者浪潮",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/europe-s-hot-stock-markets-are-creating-a-buzz-among-investors",
       "source": "Bloomberg Markets",
-      "summary": "中国 7 月出厂价指数首次下降，消费价格亦放缓，显示伊朗冲突带来的油价冲击逐渐消退。",
+      "summary": "欧洲股市强劲反弹，吸引资金 mgrs，第二季度盈利预计增长22%。（多家报道）",
       "importance": 8
     },
     {
-      "title": "韩国股市波动回落 杠杆交易被清洗",
+      "title": "非洲国家正告诉撤回美元",
+      "url": "https://www.economist.com/finance-and-economics/2026/08/06/african-countries-are-souring-on-the-dollar",
+      "source": "The Economist Finance",
+      "summary": "越来越多的非洲国家减少与美元的依赖，人民币和本币有望受益。",
+      "importance": 7
+    },
+    {
+      "title": "韩国市场波动回落投机头寸清仓",
       "url": "https://www.bloomberg.com/news/articles/2026-08-09/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out",
       "source": "Bloomberg Markets",
-      "summary": "韩国股市经历历史性抛售后，杠杆头寸大幅清仓，监管收紧高风险产品交易，波动率显著下降。",
-      "importance": 8
+      "summary": "韩国股市极端波动缓解，杠杆头寸被清仓，监管措施降低风险。",
+      "importance": 7
     },
     {
-      "title": "欧洲股市反弹 企业盈利强劲缓解地缘担忧",
-      "url": "https://www.ft.com/content/297a8bf7-ce8b-44fe-bc51-3e2ec2e47699?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "斯托克 600 指数成分股二季度利润预计增长 22%，投资者重返欧洲市场，地缘政治阴影减轻。",
-      "importance": 8
-    },
-    {
-      "title": "美国 7 月就业意外减少 23 万岗位",
+      "title": "美国7月就业意外下滑2.3万",
       "url": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美国 7 月非农就业意外下降 2.3 万，远低于市场预期，显示夏季招聘放缓。",
-      "importance": 7
+      "summary": "美国7月新增就业2.3万人，意外下滑，分析师此前预期增长。",
+      "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "加拿大野火致两万余人撤离",
-      "url": "https://www.nytimes.com/2026/08/08/world/canada/canada-summerland-bc-wildfire-bald-range-evacuation.html",
+      "title": "加拿大巴尔德山火灾致1.8万人疏散",
+      "url": "https://www.nytimes.com/2026/08/09/world/canada/canada-summerland-bc-wildfire-bald-range-evacuation.html",
       "source": "NYT World",
-      "summary": "Bald Range 大火已烧毁逾 2.5 万英亩，火势一度每小时蔓延 2000 英亩，强制疏散超 2 万居民。（多家报道）",
-      "importance": 9
+      "summary": "巴尔德山火灾燃烧超2.5万英亩，一小时内扩张2000英亩，1.8万人被疏散。",
+      "importance": 8
     },
     {
-      "title": "哥斯达黎加前副总统成联合国秘书长热门人选",
+      "title": "菲律宾外交官竞选联合国首位女首领",
       "url": "https://www.theguardian.com/world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un",
       "source": "The Guardian",
-      "summary": "前副总统雷贝卡·格林斯潘获现任秘书长古特雷斯默许支持，被视为继任者最有力竞争者。",
-      "importance": 8
+      "summary": "费拉米拉内布达加那位外交官Rebeca Grynspan成为首位女性联合国秘书长候选人。",
+      "importance": 7
     },
     {
-      "title": "德国选择党支持率升至 28% 超越联盟党",
-      "url": "https://www.dw.com/zh/德国趋势-民调：afd进一步领先联盟党/a-78282327?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "最新 ARD 民调显示 AfD 支持率达 28%，联盟党降至 21%，32% 受访者认为可视情况与 AfD 合作。",
-      "importance": 8
+      "title": "俄罗斯家庭寻求芬兰庇护避免报复",
+      "url": "https://www.theguardian.com/world/2026/aug/09/russian-family-finland-reprisals-pro-ukraine-activism",
+      "source": "The Guardian",
+      "summary": "俄罗斯家庭称抵达芬兰后寻求庇护，担心回俄后因赞美乌克兰遭报复。",
+      "importance": 7
     }
   ],
-  "editor_note": "多重危机交织，科技与地缘博弈同步升级，需警惕系统性风险并保持政策灵活。",
+  "editor_note": "AI安全与自然灾害双现象并存，全球市场在地缘政治与技术进步间频繁调整。",
   "keywords": [
-    "台风",
-    "AI",
-    "通胀",
-    "野火",
-    "联合国",
-    "德国政治",
-    "半导体",
-    "就业"
+    "AI安全",
+    "台风灾害",
+    "欧洲股市",
+    "野火疏散",
+    "网络安全",
+    "气象预警",
+    "联合国女首领",
+    "跨境紧张"
   ],
   "trading": {
-    "market_overview": "美股方面，SPY 以 773.26 回测 52 周高点，RSI 66、MACD 金叉呈强势；QQQ 近 5 日涨 5.09%，金叉确认；但 AAPL、META 均出现空头排列，MACD 背离显著。加密市场恐慌指数 31（恐慌），总市值 2.30T，BTC 主导率 56.6%，但 BTC 价格已跌至 52 周低位附近；ETH-USD 价格 1,916 仍低于 200 日均线 2,050。中国股份权益方面，0700.HK 受益于近期政策宽松，20 日均线已金叉；但 BABA、PDD 挂靠 200 日均线下方，跌幅居前。商品汇兵板块中，黄金 GC=F 突破 52 周高位，RSI 67.5；但原油 CL=F MACD 死叉，显示需求疲软；美元指数 DX-Y.NYB 回调挤压，RSI 36.2 超低区域。总体来看，市场呈现风险偏好波动格局，恐慌情绪仍存。",
+    "market_overview": "当前市场整体呈现分化走势，美股领域多数标的处于中性至多头排列状态，技术指标显示近期修复行情仍有持续力，但关键指标如VIX指数下行压力减弱、十年美债收益率在支撑位徘徊。加密市场处于低迷态势，BTC与ETH的关键指标均未显示明确超买信号，整体处于盘整修复阶段。商品领域黄金期货走强超出预期，WTI原油则处于弱势回调中。外汇方面美元指数表现受多头压力分化影响，若超债收益率持续走强可能加剧外流风险。从技术维度看，市场集体低位运行，质量股、周期性资产的表现差异明显，同时宏观政策利率预期压力与汇率波动性构成潜在风险。除BTC-USD和ETH-USD外，其他加密资产均未突破关键指标突破区间。",
     "watchlist": [
       {
-        "symbol": "^VIX",
-        "display_name": "VIX 恐慌指数",
-        "stance": "偏下行",
-        "rationale": "VIX 当前 14.9，下行趋势；暂无均线叠加；RSI 14 为 41.9，处于弱势区域；MACD -0.457 小于信号线 -0.1296，显示死叉；近 5 日下跌 6.82%，恐慌情绪凸显。"
+        "symbol": "MCX",
+        "display_name": "CME铜期货 (MCX)",
+        "stance": "中性",
+        "rationale": "铜期货处于明显超买状态，MACD金叉信号与RSI突破70阈值形成强烈交易动能，近期涨幅冲击26%，远超52周低点80%反弹幅度。5日均线协助支撑尖锐反转，技术结构尚具体系反弹潜力，但均线系数位延续下行趋势需验证持续力。"
       },
       {
-        "symbol": "QQQ",
-        "display_name": "Nasdaq 100 ETF",
+        "symbol": "XAU",
+        "display_name": "黄金期货 (XAU)",
         "stance": "偏上行",
-        "rationale": "QQQ 当前 723.03，近 5 日涨幅 5.09%；20 日均线 700.34 上方；MACD 金叉 0.11 > 信号 -4.33；RSI 57.1 位于正常区间；显示明显多头动量向上。"
-      },
-      {
-        "symbol": "USDCNY=X",
-        "display_name": "美元 / 人民币",
-        "stance": "偏下行",
-        "rationale": "汇率 6.75 自 52 周低点 0.16 逼近；20 日均线 6.76 与现价不相甚远；RSI 32.3 超低；MACD -0.0086 小于信号 -0.0069；整体呈弱势徐徐下跌态势。"
+        "rationale": "黄金期货突破200日均线至4399.7水平，MACD金叉超买态势持续，伴随3.72%单日涨幅突破周结构。52周低点42.24%的反弹幅度符合金融资产避险特性，超买态势尚显著但预示货币贬值预期升温潜力，支撑位于4000点位附近。"
       },
       {
         "symbol": "BTC-USD",
-        "display_name": "Bitcoin",
+        "display_name": "比特币",
         "stance": "中性",
-        "rationale": "BTC 价格 64,797 接近 20 日均线 64,382；MACD 金叉 155.8 > 71.1；RSI 53.9 平稳；52 周内最大回撤 48.6%；当前呈波动中性格局。"
+        "rationale": "比特币处于MACD金叉买入信号区间，RSI处于接近55的中立区域，但恐慌贪婪指数处于恐慌极端（31）端，价格处于52周低点48.61%的回升阶段。当前价格70129.96均线作为支撑位，但交易量试探尚缺乏突破动能，超买/超卖指标尚未触及，技术结构显示震荡整理走势。"
       }
     ],
-    "risk_caveat": "本报告仅基于当前公开的技术指标数据进行客观描述，未包含任何投资建议。过去走势不代表未来表现，市场复合变动风险密切，使用本报告即表示已了解并接受上述局限。",
+    "risk_caveat": "技术分析仅基于历史数据策划，未必能有效预测未来市场走势，并完全不构成任何买卖建议。投资需承担全部风险，历史偶发移动都无法保证有效性再现。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -380,18 +367,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64797.06,
-        "pct1Day": -0.16582392450468592,
-        "pct5Day": 1.156967992582653,
-        "pct52WeekHigh": -48.65447625308375,
-        "pct52WeekLow": 12.207041913967709,
-        "sma20": 64382.4275390625,
-        "sma50": 63316.457578125,
-        "sma200": 70129.7107421875,
-        "rsi14": 53.94044502376759,
-        "macd": 155.7727405830883,
-        "macdSignal": 71.06559505201491,
-        "macdHistogram": 84.7071455310734,
+        "currentPrice": 64847.38,
+        "pct1Day": -0.08829485543706318,
+        "pct5Day": 1.235524313338359,
+        "pct52WeekHigh": -48.61460242617023,
+        "pct52WeekLow": 12.294179483930154,
+        "sma20": 64384.9435546875,
+        "sma50": 63317.463984375,
+        "sma200": 70129.96234375,
+        "rsi14": 54.26987998764151,
+        "macd": 159.78689656599454,
+        "macdSignal": 71.86842624859615,
+        "macdHistogram": 87.91847031739839,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -408,18 +395,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1916.47,
-        "pct1Day": 0.04891803146638892,
-        "pct5Day": 2.573565592741637,
-        "pct52WeekHigh": -61.312610106358164,
-        "pct52WeekLow": 27.21292723950531,
-        "sma20": 1896.4516174316407,
-        "sma50": 1801.9587768554688,
-        "sma200": 2050.096822509766,
-        "rsi14": 56.72544408284437,
-        "macd": 21.40146322181954,
-        "macdSignal": 23.31570117299156,
-        "macdHistogram": -1.9142379511720193,
+        "currentPrice": 1919.69,
+        "pct1Day": 0.21701746222258364,
+        "pct5Day": 2.7459068666507673,
+        "pct52WeekHigh": -61.247608621619285,
+        "pct52WeekLow": 27.426666888814307,
+        "sma20": 1896.612615966797,
+        "sma50": 1802.0231762695312,
+        "sma200": 2050.112922363281,
+        "rsi14": 57.13134278842022,
+        "macd": 21.658326981612845,
+        "macdSignal": 23.367073924950223,
+        "macdHistogram": -1.7087469433373776,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -430,18 +417,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 76.33,
-        "pct1Day": 0.4709133001125825,
-        "pct5Day": 3.543571977536688,
-        "pct52WeekHigh": -69.8550491114289,
-        "pct52WeekLow": 26.343381215703715,
-        "sma20": 74.52352676391601,
-        "sma50": 75.30694488525391,
-        "sma200": 83.52467784881591,
-        "rsi14": 55.449653496187764,
-        "macd": -0.3058307472132782,
-        "macdSignal": -0.5720878103053211,
-        "macdHistogram": 0.2662570630920429,
+        "currentPrice": 76.29,
+        "pct1Day": 0.41826248743075745,
+        "pct5Day": 3.489310967722714,
+        "pct52WeekHigh": -69.87084628207664,
+        "pct52WeekLow": 26.2771721858514,
+        "sma20": 74.52152671813965,
+        "sma50": 75.30614486694336,
+        "sma200": 83.52447784423828,
+        "rsi14": 55.333262108694335,
+        "macd": -0.3090217034376934,
+        "macdSignal": -0.5727260015502041,
+        "macdHistogram": 0.2637042981125107,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -729,13 +716,13 @@
       "timestamp": "2026-08-09T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2297713265945.522,
-      "total24hVolumeUsd": 31494315517.99246,
-      "marketCapChangePct24h": 0.10435687533826288,
-      "btcDominance": 56.59523484201367,
-      "ethDominance": 10.07222261952595,
-      "activeCryptocurrencies": 18269
+      "totalMarketCapUsd": 2299435972034.6724,
+      "total24hVolumeUsd": 32316486217.658073,
+      "marketCapChangePct24h": 0.11630828565197815,
+      "btcDominance": 56.615555442364936,
+      "ethDominance": 10.079894778893085,
+      "activeCryptocurrencies": 18273
     },
-    "generated_at": "2026-08-09T07:27:22.455Z"
+    "generated_at": "2026-08-09T08:27:16.975Z"
   }
 }
