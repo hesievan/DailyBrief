@@ -1,143 +1,137 @@
 {
-  "hero_headline": "美加关税战升级，AI 前沿加速演进",
-  "daily_overview": "今日科技领域，OpenAI 推出 AI Futures 探讨变革治理，DeepMind 发布 Gemini 3.7 Flash 并与游戏工作室合作，HuggingFace 新注意力机制 FlashPrefill V2 大幅提升长上下文推理；财经方面，美加贸易谈判破裂引发 50% 关税对垒，墨西哥寻求降低美关税，美国借贷成本上升且债券收益率走高；时政上，俄军双重打击乌克兰商场致 16 死，中方嫦娥七号将探测月球冰水，澳大利亚通过法案强制大科技平台向新闻媒体付费。",
+  "hero_headline": "美加贸易谈判破裂 关税升级",
+  "daily_overview": "今日科技领域，OpenAI 推出 AI Futures 博客探讨变革性 AI 影响，DeepMind 联合游戏工作室原型 AI 玩法，FlashPrefill V2 与仿真训练大幅降低长上下文推理成本；财经方面，墨西哥寻求降低美关税，美加谈判破裂导致 50% 关税即将生效，AI 对薪资的下行压力显现，美国借贷成本攀升且中国就业持续疲软；时政上，俄军双重打击乌克兰购物中心造成重大人员伤亡，美加贸易战升级，金门岛被指可能成为台海新闪点。",
   "tech_briefs": [
     {
-      "title": "OpenAI 推出 AI Futures 探讨变革治理",
+      "title": "OpenAI 推出 AI Futures 博客",
       "url": "https://openai.com/index/introducing-ai-futures",
       "source": "OpenAI News",
-      "summary": "OpenAI 新博客系列 AI Futures 分析变革性 AI 对权力、治理、经济与个人自由的潜在影响。",
+      "summary": "OpenAI 发布 AI Futures 博客，聚焦变革性 AI 对权力、治理、经济及个人自由的潜在重塑。",
       "importance": 9
+    },
+    {
+      "title": "DeepMind 与游戏工作室合作原型 AI 玩法",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": "DeepMind Blog",
+      "summary": "Google DeepMind 宣布与多家游戏工作室合作，基于 15 年 AI 研究在 Atari 到 EVE Online 等环境原型突破性 AI 玩法。",
+      "importance": 8
     },
     {
       "title": "FlashPrefill V2 提出块稀疏预填注意力加速长上下文",
       "url": "https://huggingface.co/papers/2608.19758",
       "source": "HuggingFace Trending Papers",
-      "summary": "论文提出块稀疏预填注意力机制，显著降低长上下文 LLM 预填阶段的二次复杂度，推理速度提升。",
+      "summary": "论文提出 Block‑Sparse Prefill Attention，降低长上下文 LLM 预填阶段二次复杂度，实现显著推理加速。",
       "importance": 8
     },
     {
-      "title": "Simile CEO 称仿真成新 Scaling Law",
-      "url": "https://www.latent.space/p/simile",
+      "title": "模拟训练成本骤降 100 倍成 AI 新范式",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
       "source": "Latent Space",
-      "summary": "Simile 创始人 Joon Sung Park 指出大规模数字孪生仿真将成为下一代 AI 扩展法则，推动 80 亿数字孪生构建。",
+      "summary": "Latent Space 指出模拟训练仅比真实数据差 10% 却成本降 100 倍、速度提升 10000 倍，推动仿真成为主流训练路径。",
+      "importance": 9
+    },
+    {
+      "title": "OpenAI 与 Anthropic 扩展桌面代理平台",
+      "url": "https://news.smol.ai/issues/26-08-20-not-much/",
+      "source": "Smol AI News",
+      "summary": "两家公司推出桌面功能、协作编辑及可组合 API，进一步完善智能体生态系统。",
       "importance": 8
-    },
-    {
-      "title": "Andrew Ng 发布 AI 工程技能图谱",
-      "url": "https://x.com/AndrewYNg/status/2090840747738374568",
-      "source": "X 推文 (AttentionVC)",
-      "summary": "Andrew Ng 在 X 分享 AI Engineering Skills Map，强调构建与部署 AI 应用、软件工程基础与编码能力为核心技能。",
-      "importance": 7
-    },
-    {
-      "title": "MoneyPrinterTurbo 一键生成高清短视频",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "source": "GitHub Trending",
-      "summary": "该开源项目利用大模型与自动化工作流，根据主题或关键词自动生成高清短视频，星标快速增长。",
-      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "美国对加征 50% 关税，涉 200 亿美元商品",
-      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-      "source": "NPR World",
-      "summary": "美国在谈判破裂后对加拿大 200 亿美元商品加征 50% 关税，加方宣布同等反制，贸易战升级。",
+      "title": "墨西哥谈判代表乐观争取降低美关税",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-22/mexico-optimistic-it-can-achieve-lower-us-tariffs-on-cars-steel",
+      "source": "Bloomberg Markets",
+      "summary": "墨西哥首席谈判官表示有望获得类似美国正讨论的修订措施，降低汽车与钢铁出口关税。",
+      "importance": 8
+    },
+    {
+      "title": "美加贸易谈判临近截止 关税或生效",
+      "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "BBC 报道美加谈判在周五晚截止前仍未达成协议，50% 关税将对 200 亿美元加商品生效。",
       "importance": 9
     },
     {
-      "title": "墨西哥谈判代表称有望降低美对汽车钢铁关税",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-22/mexico-optimistic-it-can-achieve-lower-us-tariffs-on-cars-steel",
+      "title": "AI 对工资影响显现 华尔街周报关注",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/wall-street-week-ai-hits-wages-colorado-river-crisis-video",
       "source": "Bloomberg Markets",
-      "summary": "墨西哥首席谈判官表达乐观，认为可获得与美国修订措施类似的关税减让，汽车与钢铁出口受益。",
+      "summary": "前 IBM CEO 指出 AI 尚未引发大规模裁员，但早期数据显示已对薪资结构产生下行压力。",
       "importance": 8
     },
     {
-      "title": "美国借贷成本上升，国家债务突破 40 万亿美元",
+      "title": "美国借贷成本上升 国家债务突破 40 万亿",
       "url": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "经济学家指出借贷成本持续攀升，国家债务已超 40 万亿美债务，利率缓解措施效果短暂。",
+      "summary": "经济学家担忧借贷成本持续走高，美国国家债务已超 40 万亿美元。",
       "importance": 8
     },
     {
-      "title": "经济学人：中国就业市场疲软，部分劳动力回流农村",
+      "title": "中国就业市场疲软 部分劳动力回流农村",
       "url": "https://www.economist.com/finance-and-economics/2026/08/20/however-you-measure-it-chinas-job-market-is-weak",
       "source": "The Economist Finance",
-      "summary": "多项指标显示中国就业持续低迷，部分工人选择返乡务农，反映结构性压力。",
-      "importance": 7
-    },
-    {
-      "title": "债券收益率攀升令发达国家政客不安",
-      "url": "https://www.economist.com/finance-and-economics/2026/08/19/why-bond-markets-are-unnerving-rich-world-politicians",
-      "source": "The Economist Finance",
-      "summary": "股市创新高之际，长期债券收益率持续上行，加剧财政可持续性担忧。",
+      "summary": "经济学人指出中国就业指标持续疲弱，部分工人选择回乡务农以应对压力。",
       "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "俄军双重打击乌克兰商场致 16 死 130 伤",
+      "title": "俄双重打击乌克兰购物中心 16 死 130 伤",
       "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "俄军对乌克兰购物中心实施双重打击，造成至少 16 人死亡、130 伤，仍有 9 人失踪。",
+      "summary": "俄罗斯对乌克兰一购物中心实施双重打击，造成 16 人死亡、130 伤，9 人仍失踪。",
       "importance": 9
     },
     {
-      "title": "嫦娥七号将探测月球阴影坑内水冰",
-      "url": "https://www.aljazeera.com/news/2026/8/22/chinas-new-moon-mission-could-unlock-secret-of-lunar-ice-why-that-matters?traffic_source=rss",
-      "source": "Al Jazeera",
-      "summary": "中国新月球任务旨在探明永久阴影陨石坑中的水冰分布，为未来月球基地提供资源线索。",
-      "importance": 8
+      "title": "美加贸易谈判破裂 50% 关税即将生效",
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "source": "NPR World",
+      "summary": "NPR 报道谈判在午夜前崩溃，美国将对 200 亿美元加商品征收 50% 关税，加方承诺以牙还牙。",
+      "importance": 10
     },
     {
-      "title": "澳大利亚通过法案强制大科技平台向新闻媒体付费",
-      "url": "https://www.npr.org/2026/08/21/nx-s1-5939814/big-tech-companies-will-have-to-pay-to-publish-australian-news-content-under-new-laws",
-      "source": "NPR World",
-      "summary": "新法要求谷歌、Meta 等与澳媒体达成协议或缴纳广告收入税，旨在平衡数字平台与新闻业利益。",
-      "importance": 7
+      "title": "金门岛成东亚潜在火药桶",
+      "url": "https://thediplomat.com/2026/08/kinmen-the-sleepy-fishing-island-that-could-be-east-asias-biggest-flashpoint/",
+      "source": "The Diplomat",
+      "summary": "外交学者分析金门仅距大陆 2 英里，地位特殊，可能成为台海冲突新闪点。",
+      "importance": 8
     }
   ],
-  "editor_note": "关税博弈与 AI 竞速同频共振，全球秩序加速重塑，科技与地缘政治深度交织。",
+  "editor_note": "多领域风险并存，关税升级与地缘冲突外溢值得持续密切跟踪评估。",
   "keywords": [
-    "关税",
-    "AI",
-    "中美贸易",
-    "月球探测",
-    "债券收益率",
-    "数字孪生",
-    "新闻付费",
-    "就业市场"
+    "AI Futures",
+    "FlashPrefill V2",
+    "美加关税",
+    "俄乌冲突",
+    "金门岛",
+    "借贷成本",
+    "中国就业",
+    "仿真训练"
   ],
   "trading": {
-    "market_overview": "加密恐慌贪婪指数71（贪婪），加密总市值2.63万亿美元（24h +0.55 % ），BTC 主导率58.6 %、ETH 11.1 %。美股方面，SPY 价格765.72，1日涨0.41 %、5日跌1.37 %，RSI 54.2，趋向中性；NVDA MACD 死叉但多头排列持续。黄金期货GC=F 价格4680.6，MACD 柱状图104.77，正显多头优势。宏观指标中，VIX 恐慌指数15.13，1日跌5.5 %，显示市场情绪趋缓，10年美债收益率^TNX为4.74 %，接近52周高点，技术指标偏多头。",
+    "market_overview": "整体市场技术面呈现混合格局。加密领域看涨压力明显，BTC-RSI超买至80.7、ETH-RSI接近78，MACD均录入黄金符号信号，两股均产生新高点推动力，但持续震荡的决策外汇（美元指数DXY-RSI超卖至29.7）和美债收益率（TNX）的短期修正可能 restric 资产流动性。美股股指（SPX、纳指）因MACD死叉信号终止初步回升势，部分个股如AAPL在跌幅背景下MACD指标转阴局面，而中概股行情承压，阿里巴巴连续跌超8%、罗氏基金-properties下挫超30%。商品领域白银（GC=F）超买后2日回调但多头排列保持，原油（CL=F）突破突破多头排列造势。技术面中中性趋势主导，但极度贪婪指数（比特币/以太坊）提醒对应领域需警惕短期回调风险。",
     "watchlist": [
       {
         "symbol": "BTC-USD",
         "display_name": "比特币 (BTC-USD)",
         "stance": "偏上行",
-        "rationale": "「BTC-USD 当前价格77416.2，MACD 金叉，柱状图1595.70，正显多头动能，RSI 81.7 属于超买，5日涨幅20.01 %，技术上偏上行。」"
+        "rationale": "BTC-MACD金叉给出潜在看涨信号，RSI在超买区段（80.7）仍保持上行动能，跌幅被28.41%的盈利率支撑，52周低位接近33.69%常态基准。但超买状态提示需警惕短期回调。"
       },
       {
-        "symbol": "ETH-USD",
-        "display_name": "以太坊 (ETH-USD)",
-        "stance": "偏上行",
-        "rationale": "「ETH-USD 当前价格2436.41，MACD 金叉，柱状图64.14，RSI 79.4 超买，5日涨幅27.41 %，多头 momentum 明显，技术上偏上行。」"
-      },
-      {
-        "symbol": "SPY",
-        "display_name": "S&P 500 ETF (SPY)",
-        "stance": "中性",
-        "rationale": "「SPY 当前价格765.72，1日涨0.41 %，5日跌1.37 %，RSI 14为54.2，趋于正常，MACD 死叉信号出现，显示多头和空头分歧，技术上保持中性。」"
-      },
-      {
-        "symbol": "META",
-        "display_name": "Meta (META)",
+        "symbol": "TSLA",
+        "display_name": "特斯拉 (TSLA)",
         "stance": "偏下行",
-        "rationale": "「META 当前价格549.9，1日涨0.75 %，5日跌6.77 %，RSI 14 38.7，技术指标偏弱，MACD 死叉及空头排列持续，技术上偏下行。」"
+        "rationale": "TSLA-RSI正常值段（58）但MACD显示跌势（-3.33），近1日跌5.14%打破10日均线阻力位，后市多头对比重回跌幅下方（52周高位低27.26%）后下轨更容易绝对值突破。"
+      },
+      {
+        "symbol": "GC=F",
+        "display_name": "黄金期货 (GC=F)",
+        "stance": "偏上行",
+        "rationale": "黄金-RSI持续超买状态（73.7）后开启多头排列，近5日涨幅5.66%突破20日均线（4278.18）显示技术支撑。但27.13%回落空间留存需谨慎， MACD（104.77）金叉信号暂成立向性。"
       }
     ],
-    "risk_caveat": "「过去走势不代表未来表现，报告仅供技术指标解读参考，请投资者结合基本面和风险承受能力进行全面评估。」「",
+    "risk_caveat": "本报告仅基于向实时数据评估技术指标，不包含任何量向预测或操作建议。过去走势数据不一定能反映未来市场发展趋势，需结合基本面分析全面把握风险。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -372,18 +366,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 77416.2,
-        "pct1Day": -1.173147763257735,
-        "pct5Day": 20.013479797652852,
-        "pct52WeekHigh": -38.65500478731569,
-        "pct52WeekLow": 34.059211918258434,
-        "sma20": 66066.458203125,
-        "sma50": 64867.99609375,
-        "sma200": 68982.50615234375,
-        "rsi14": 81.6639856548114,
-        "macd": 2541.5732355092186,
-        "macdSignal": 945.8698339015182,
-        "macdHistogram": 1595.7034016077005,
+        "currentPrice": 77205.3,
+        "pct1Day": -1.4423754331346907,
+        "pct5Day": 19.68653475398855,
+        "pct52WeekHigh": -38.82212303246793,
+        "pct52WeekLow": 33.6940029853276,
+        "sma20": 66055.912890625,
+        "sma50": 64863.77796875,
+        "sma200": 68981.45162109374,
+        "rsi14": 80.72910276215944,
+        "macd": 2524.748805309806,
+        "macdSignal": 942.5049478616356,
+        "macdHistogram": 1582.2438574481703,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -404,18 +398,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2436.41,
-        "pct1Day": -3.135701940695718,
-        "pct5Day": 27.413830278919043,
-        "pct52WeekHigh": -50.81668713271385,
-        "pct52WeekLow": 61.725906513330806,
-        "sma20": 1989.0598510742188,
-        "sma50": 1907.1070776367187,
-        "sma200": 2005.4583258056641,
-        "rsi14": 79.36398954640697,
-        "macd": 122.20067682265994,
-        "macdSignal": 58.061705616866746,
-        "macdHistogram": 64.1389712057932,
+        "currentPrice": 2421.47,
+        "pct1Day": -3.7296711876640076,
+        "pct5Day": 26.632532129442126,
+        "pct52WeekHigh": -51.11827787246508,
+        "pct52WeekLow": 60.734207643555536,
+        "sma20": 1988.3128540039063,
+        "sma50": 1906.8082788085937,
+        "sma200": 2005.3836260986327,
+        "rsi14": 77.87160795815797,
+        "macd": 121.00888662501075,
+        "macdSignal": 57.823347577336904,
+        "macdHistogram": 63.18553904767384,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -436,18 +430,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 94.7,
-        "pct1Day": 1.1172978467607433,
-        "pct5Day": 24.697032119597264,
-        "pct52WeekHigh": -62.6001984914492,
-        "pct52WeekLow": 56.74987817538507,
-        "sma20": 78.1439193725586,
-        "sma50": 77.13375778198242,
-        "sma200": 81.13527050018311,
-        "rsi14": 83.76184453166721,
-        "macd": 3.734141681042246,
-        "macdSignal": 1.54273878591136,
-        "macdHistogram": 2.191402895130886,
+        "currentPrice": 93.44,
+        "pct1Day": -0.2280854192046111,
+        "pct5Day": 23.03791638073039,
+        "pct52WeekHigh": -63.097809366853355,
+        "pct52WeekLow": 54.66429373503675,
+        "sma20": 78.0809196472168,
+        "sma50": 77.1085578918457,
+        "sma200": 81.12897052764893,
+        "rsi14": 82.30038731272458,
+        "macd": 3.63362929873054,
+        "macdSignal": 1.5226363094490187,
+        "macdHistogram": 2.110992989281521,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -742,13 +736,13 @@
       "timestamp": "2026-08-22T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2633208690059.951,
-      "total24hVolumeUsd": 192771012294.8627,
-      "marketCapChangePct24h": 0.5451972688969208,
-      "btcDominance": 58.58304344422136,
-      "ethDominance": 11.076042822433003,
-      "activeCryptocurrencies": 18612
+      "totalMarketCapUsd": 2626270766033.0996,
+      "total24hVolumeUsd": 182500732839.07675,
+      "marketCapChangePct24h": -0.8499120091213681,
+      "btcDominance": 58.801529322675684,
+      "ethDominance": 11.080212213518527,
+      "activeCryptocurrencies": 18618
     },
-    "generated_at": "2026-08-22T07:27:13.661Z"
+    "generated_at": "2026-08-22T08:46:30.769Z"
   }
 }
